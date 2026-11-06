@@ -1,0 +1,302 @@
+[
+ {
+  "lvl": 1,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Obsah čtverce je S = a², a > 0. Která funkce spočítá délku strany a z obsahu S?",
+  "mc": [
+   "a = S/2",
+   "a = √S",
+   "a = S²",
+   "a = 1/S"
+  ],
+  "res": "a = √S",
+  "who": "A: dělení dvěma nic neinvertuje; C: umocnění je původní směr; D: převrácená hodnota není inverze",
+  "tip": "Zkouška: čtverec o straně 3 má obsah 9 a √9 = 3 ✓.",
+  "ans": "B"
+ },
+ {
+  "lvl": 1,
+  "tema": "Jsou inverzní?",
+  "zad": "Jsou funkce f(x) = x + 5 a g(x) = 5 − x navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ne, inverzní k f je x − 5",
+  "who": "5 − x je opak čísla x − 5, takže má obrácené znaménko",
+  "tip": "Zkouška: f(1) = 6, ale g(6) = −1, ne 1.",
+  "ans": "B"
+ },
+ {
+  "lvl": 1,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = 2x + 6. Která funkce je k ní inverzní?",
+  "mc": [
+   "(x + 6)/2",
+   "1/(2x + 6)",
+   "(x − 6)/2",
+   "x/2 − 6"
+  ],
+  "res": "f⁻¹(x) = (x − 6)/2",
+  "who": "A: opačné znaménko; B: převrácená hodnota není inverze; D: dělí se i číslo 6",
+  "tip": "Zkouška: f(1) = 8 a (8 − 6)/2 = 1 ✓.",
+  "ans": "C"
+ },
+ {
+  "lvl": 2,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Převod stupňů Celsia na Fahrenheity je F = 1,8·C + 32. Která funkce převádí Fahrenheity zpět na Celsia?",
+  "mc": [
+   "C = (F − 32)/1,8",
+   "C = 1,8·F − 32",
+   "C = (F + 32)/1,8",
+   "C = F/1,8 − 32"
+  ],
+  "res": "C = (F − 32)/1,8",
+  "who": "B: nic se neinvertovalo; C: opačné znaménko; D: číslo 32 se nedělí 1,8",
+  "tip": "Zkouška: 50 °C je 122 °F a (122 − 32)/1,8 = 50 ✓.",
+  "ans": "A"
+ },
+ {
+  "lvl": 2,
+  "tema": "Jsou inverzní?",
+  "zad": "Jsou funkce f(x) = 3x − 1 a g(x) = (x + 1)/3 navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ano, g je inverzní k f",
+  "who": "Hlídejte pořadí kroků: f násobí třemi a odečte 1, g musí nejdřív přičíst 1 a pak dělit třemi",
+  "tip": "Zkouška: f(2) = 5 a g(5) = 2 ✓.",
+  "ans": "A"
+ },
+ {
+  "lvl": 2,
+  "tema": "Graf",
+  "zad": "Zelený graf je funkce f, oranžový funkce g, čárkovaně je přímka y = x. Jsou f a g navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ne, grafy nejsou souměrné podle přímky y = x",
+  "who": "Souměrná s f by byla jen přímka procházející bodem [0; −2], ale g prochází bodem [0; −1]",
+  "tip": "Bod [0; 1] leží na f. Zrcadlový bod [1; 0] by musel ležet na g, ale g(1) = 1.",
+  "ans": "B",
+  "plot": {
+   "f": "x/2+1",
+   "g": "2*x-1"
+  }
+ },
+ {
+  "lvl": 2,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = −3x + 1. Která funkce je k ní inverzní?",
+  "mc": [
+   "(x − 1)/3",
+   "(1 − x)/3",
+   "−x/3 + 1",
+   "(x + 1)/(−3)"
+  ],
+  "res": "f⁻¹(x) = (1 − x)/3",
+  "who": "A: ztracené minus; C: číslo 1 se také dělí třemi; D: špatné znaménko u jedničky",
+  "tip": "Zkouška: f(1) = −2 a (1 − (−2))/3 = 1 ✓.",
+  "ans": "B"
+ },
+ {
+  "lvl": 2,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Cena s DPH je p = 1,21·c, kde c je cena bez DPH. Která funkce spočítá cenu bez DPH z ceny s DPH?",
+  "mc": [
+   "c = 1,21·p",
+   "c = p − 0,21",
+   "c = 0,79·p",
+   "c = p/1,21"
+  ],
+  "res": "c = p/1,21",
+  "who": "A: špatný směr; B: odečítá se jen 0,21; C: 21 % z konečné ceny není 21 % ze základu",
+  "tip": "Zkouška: zboží za 100 Kč stojí s DPH 121 Kč a 121/1,21 = 100 ✓.",
+  "ans": "D"
+ },
+ {
+  "lvl": 2,
+  "tema": "Jsou inverzní?",
+  "zad": "Jsou funkce f(x) = 2x + 1 a g(x) = x/2 − 1 navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ne, inverzní k f je (x − 1)/2 = x/2 − 1/2",
+  "who": "g odečítá 1 až po dělení dvěma, správně se 1 odečte před dělením",
+  "tip": "Zkouška: f(1) = 3, ale g(3) = 1/2, ne 1.",
+  "ans": "B"
+ },
+ {
+  "lvl": 2,
+  "tema": "Jsou inverzní?",
+  "zad": "Je funkce f(x) = −x + 4 sama sobě inverzní (tedy f⁻¹ = f)?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ano, z y = −x + 4 vyjde x = −y + 4",
+  "who": "Graf je přímka souměrná podle přímky y = x, takže se zrcadlí sama do sebe",
+  "tip": "Zkouška: f(1) = 3 a f(3) = 1 ✓.",
+  "ans": "A"
+ },
+ {
+  "lvl": 2,
+  "tema": "Graf",
+  "zad": "Zelený graf je funkce f, oranžový funkce g, čárkovaně je přímka y = x. Jsou f a g navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ano, grafy jsou souměrné podle přímky y = x",
+  "who": "Zelená větev paraboly a oranžová odmocnina se zrcadlí přes přímku y = x",
+  "tip": "Bod [2; 4] na f odpovídá bodu [4; 2] na g.",
+  "ans": "A",
+  "plot": {
+   "f": "x>=0?x*x:NaN",
+   "g": "x>=0?Math.sqrt(x):NaN"
+  }
+ },
+ {
+  "lvl": 3,
+  "tema": "Graf",
+  "zad": "Na obrázku je graf funkce f. Která funkce je k ní inverzní?",
+  "mc": [
+   "x/2 − 1",
+   "2x + 2",
+   "x/2 + 1",
+   "−x/2 + 1"
+  ],
+  "res": "Z grafu f(x) = 2x − 2, inverzní je f⁻¹(x) = x/2 + 1",
+  "who": "Z grafu: f(1) = 0 a f(2) = 2, takže f(x) = 2x − 2. Inverzní funkci dostaneme zaměněním x a y: x = 2y − 2",
+  "tip": "Bod [1; 0] na f odpovídá bodu [0; 1] na f⁻¹, a 0/2 + 1 = 1 ✓.",
+  "ans": "C",
+  "plot": {
+   "f": "2*x-2"
+  }
+ },
+ {
+  "lvl": 3,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = √x + 2, x ≥ 0. Která funkce je k ní inverzní?",
+  "mc": [
+   "(x − 2)², x ≥ 2",
+   "x² + 2",
+   "√(x − 2)",
+   "(x + 2)²"
+  ],
+  "res": "f⁻¹(x) = (x − 2)², x ≥ 2",
+  "who": "B: umocnění až po přičtení 2; C: odmocnina je původní funkce; D: opačné znaménko",
+  "tip": "Zkouška: f(9) = 5 a (5 − 2)² = 9 ✓.",
+  "ans": "A"
+ },
+ {
+  "lvl": 3,
+  "tema": "Jsou inverzní?",
+  "zad": "Jsou funkce f(x) = 1/x a g(x) = 1/x (x ≠ 0) navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ano, f je inverzní sama k sobě",
+  "who": "Graf funkce 1/x je souměrný podle přímky y = x, proto se inverzní funkce rovná původní",
+  "tip": "Zkouška: f(4) = 1/4 a g(1/4) = 4 ✓.",
+  "ans": "A"
+ },
+ {
+  "lvl": 3,
+  "tema": "Graf",
+  "zad": "Zelený graf je funkce f, oranžový funkce g, čárkovaně je přímka y = x. Jsou f a g navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ne, g je zrcadlení f podle osy x, ne podle přímky y = x",
+  "who": "Inverzní funkce by ležela v prvním kvadrantu, ne pod osou x",
+  "tip": "Bod [4; 2] by musel ležet na g, ale g(4) = −2.",
+  "ans": "B",
+  "plot": {
+   "f": "x>=0?x*x:NaN",
+   "g": "x>=0?-Math.sqrt(x):NaN"
+  }
+ },
+ {
+  "lvl": 3,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = √(x − 1), x ≥ 1. Která funkce je k ní inverzní?",
+  "mc": [
+   "x² − 1, x ≥ 0",
+   "√x + 1",
+   "x² + 1, x ≥ 0",
+   "1/√(x − 1)"
+  ],
+  "res": "f⁻¹(x) = x² + 1, x ≥ 0",
+  "who": "A: špatné znaménko; B: odmocnina zůstala; D: převrácená hodnota není inverze",
+  "tip": "Zkouška: f(5) = 2 a 2² + 1 = 5 ✓.",
+  "ans": "C"
+ },
+ {
+  "lvl": 3,
+  "tema": "Jsou inverzní?",
+  "zad": "Jsou funkce f(x) = x² (pro všechna reálná x) a g(x) = √x navzájem inverzní?",
+  "mc": [
+   "Ano, jsou inverzní",
+   "Ne, nejsou inverzní"
+  ],
+  "res": "Ne, f není prostá (f(2) = f(−2) = 4), takže inverzní funkce k ní neexistuje",
+  "who": "Inverzní funkce existuje jen k prosté funkci. Po omezení na x ≥ 0 by dvojice inverzní byla",
+  "tip": "Zkouška: f(−2) = 4, ale g(4) = 2, ne −2.",
+  "ans": "B"
+ },
+ {
+  "lvl": 3,
+  "tema": "Graf",
+  "zad": "Na obrázku je graf funkce f. Která funkce je k ní inverzní?",
+  "mc": [
+   "(x + 1)², x ≥ −1",
+   "(x − 1)², x ≥ 1",
+   "√x − 1",
+   "x² + 1, x ≥ 0"
+  ],
+  "res": "Z grafu f(x) = √x + 1, inverzní je f⁻¹(x) = (x − 1)², x ≥ 1",
+  "who": "Z grafu: f(0) = 1, f(1) = 2, f(4) = 3, takže f(x) = √x + 1. Zaměníme x a y: x = √y + 1, tedy y = (x − 1)²",
+  "tip": "Bod [4; 3] na f odpovídá bodu [3; 4] na f⁻¹ a (3 − 1)² = 4 ✓.",
+  "ans": "B",
+  "plot": {
+   "f": "x>=0?Math.sqrt(x)+1:NaN"
+  }
+ },
+ {
+  "lvl": 3,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = x² + 1, x ≥ 0. Která funkce je k ní inverzní?",
+  "mc": [
+   "√x − 1",
+   "√(x + 1)",
+   "1/(x² + 1)",
+   "√(x − 1), x ≥ 1"
+  ],
+  "res": "f⁻¹(x) = √(x − 1), x ≥ 1",
+  "who": "A: odmocnina jen z x; B: opačné znaménko; C: převrácená hodnota",
+  "tip": "Zkouška: f(2) = 5 a √(5 − 1) = 2 ✓.",
+  "ans": "D"
+ },
+ {
+  "lvl": 3,
+  "tema": "Předpis inverzní funkce",
+  "zad": "Je dáno f(x) = 1/x + 2, x ≠ 0. Která funkce je k ní inverzní?",
+  "mc": [
+   "1/(x + 2)",
+   "x − 2",
+   "1/(x − 2)",
+   "1/x − 2"
+  ],
+  "res": "f⁻¹(x) = 1/(x − 2), x ≠ 2",
+  "who": "A: opačné znaménko; B: odečetlo se 2, ale chybí převrácená hodnota; D: špatné pořadí kroků",
+  "tip": "Zkouška: f(1) = 3 a 1/(3 − 2) = 1 ✓.",
+  "ans": "C"
+ }
+]

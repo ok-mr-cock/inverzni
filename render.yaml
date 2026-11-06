@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: soutez-funkce
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: TEACHER_PIN
+        sync: false
